@@ -3,6 +3,7 @@
   --cor-primaria: #004AC6;
   --cor-secundaria: #DCE9FF;
   --background-color: #F8F9FF;
+  --background-section-destaque: #EFF4FF;
   --cor-texto:#434655;
   --cor-branco: #FFFFFF;
   
@@ -18,3 +19,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Base do documento */
+
+body {
+  font-family: var(--fonte-principal) ;
+  color: var(--cor-texto);
+  background-color: var(--background-color);
+  line-height: 1.6; /* Espaçamento entre linhas para melhor legibilidade */
+}
+
+/* Utilitários da Seção */
+
+.secao {
+  padding: 96px 0;
+}
+
+.secao-destaque {
+  background-color: var(--background-section-destaque);
+}
+
+/* Estilos para títulos */
+h2 {
+  font-size: 3rem; /* 48px */
+  font-weight: 700;
+  color: var(--cor-texto);
+  margin-bottom: 16px;
+}
+
+
+
