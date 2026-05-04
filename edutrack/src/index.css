@@ -1,0 +1,20 @@
+/* Variáveis de estilo para cores, fontes e outros elementos visuais */
+:root {
+  --cor-primaria: #004AC6;
+  --cor-secundaria: #DCE9FF;
+  --background-color: #F8F9FF;
+  --cor-texto:#434655;
+  --cor-branco: #FFFFFF;
+  
+  --fonte-principal: 'Inter';
+
+  --raio-borda: 12px; /* Raio de borda para botões e caixas (border-radius) */
+
+}
+
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
