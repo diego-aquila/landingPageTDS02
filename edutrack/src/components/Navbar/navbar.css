@@ -1,0 +1,17 @@
+nav {
+    position: sticky;
+    top:0;
+    z-index: 99999; /* Dispor o elemento acima de outras camadas */
+    background-color: var(--background-color);
+    border-bottom: 1px solid #DDD;
+}
+
+.navbar .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 16px 32px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
