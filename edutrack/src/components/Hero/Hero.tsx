@@ -1,11 +1,15 @@
 import Estatisticas from "./Estatisticas";
+import "./hero.css";
 
 function Hero() {
   return (
     <section className="hero">
       <div className="container">
         <span className="badge">Plataforma de aprendizado do futuro</span>
-        <h1>Gestão de aprendizado inteligente para escolas técnicas</h1>
+        <h1>
+          Gestão de aprendizado inteligente para{" "}
+          <span className="texto-azul">escolas técnicas</span>
+        </h1>
         <p className="descricao-hero">
           Centralize avaliações, presença e progresso dos alunos em uma
           interface intuitiva e potente. Desenvolvido para instituições que
