@@ -1,0 +1,28 @@
+import Estatisticas from "./Estatisticas";
+
+function Hero() {
+  return (
+    <section className="hero">
+      <div className="container">
+        <span className="badge">Plataforma de aprendizado do futuro</span>
+        <h1>Gestão de aprendizado inteligente para escolas técnicas</h1>
+        <p className="descricao-hero">
+          Centralize avaliações, presença e progresso dos alunos em uma
+          interface intuitiva e potente. Desenvolvido para instituições que
+          buscam excelência acadêmica.
+        </p>
+
+        <div className="botoes-hero">
+          <button className="btn-Filled">Explorar funcionalidades</button>
+          <button className="btn-Outlined">Saiba mais</button>
+        </div>
+
+        <Estatisticas titulo="+120" descricao="escolas técnicas" />
+        <Estatisticas titulo="+48 mil" descricao="alunos ativas" />
+        <Estatisticas titulo="4.9 ⭐" descricao="avaliação média" />
+      </div>
+    </section>
+  );
+}
+
+export default Hero;

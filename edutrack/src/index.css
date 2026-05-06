@@ -1,6 +1,7 @@
 /* Variáveis de estilo para cores, fontes e outros elementos visuais */
 :root {
   --cor-primaria: #004AC6;
+  --cor-primaria-escura: #0039A0;
   --cor-secundaria: #DCE9FF;
   --background-color: #F8F9FF;
   --background-section-destaque: #EFF4FF;
@@ -9,7 +10,7 @@
   
   --fonte-principal: 'Inter';
 
-  --raio-borda: 12px; /* Raio de borda para botões e caixas (border-radius) */
+  --raio-borda: 10px; /* Raio de borda para botões e caixas (border-radius) */
 
 }
 
